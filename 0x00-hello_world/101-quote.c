@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include <string.h>
 #include <unistd.h>
 /**
- * main - main block
+ * main - printing a quote
  * Return: 1
  */
 int main(void)
