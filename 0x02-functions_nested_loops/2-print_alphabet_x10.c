@@ -7,18 +7,15 @@
 
 void print_alphabet_x10(void)
 {
-char letter = 'a';
+	int i;
+	int j;
 
-for (int i = 0; i < 10; i++)
-{
-for (int j = 0; j < 26; j++)
-{
-_putchar("%c", letter);
-letter++;
-_putchar("\n");
-letter = 'a';
+	for (j = 1; i <= 10; i++)
+	{
+		for (j = 97; j <= 122; j++)
+		{
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
 }
-}
-}
-print_alphabet_x10();
-
