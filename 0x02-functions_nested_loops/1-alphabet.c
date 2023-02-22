@@ -1,22 +1,20 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * main - Entry point
- * description - alphabet in lowercase
+ * alphabet - alphabet in lowercase
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet;
 
-	while (alphabet = 'a'); 
-	      (alphabet <= 'z');
+	for (alphabet='a';alphabet<='z';alphabet++);
 	{
-		putchar(alphabet);
-		alphabet++;
+		_putchar(alphabet);
+		_putchar("\n");
 	}
-	putchar('\n');
+
 	return (0);
 }
